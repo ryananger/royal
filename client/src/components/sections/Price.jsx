@@ -8,6 +8,8 @@ const Price = function() {
         <div className='priceCard'>
           <h3>Tuition-Free!</h3>
           <p>Don't worry about the bill, just get thinking about what you want to build.</p>
+          {/* only
+          <h1>$200</h1> */}
         </div>
         <div className='priceCard list'>
           <h3>What's Included</h3>

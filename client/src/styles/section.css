@@ -73,6 +73,13 @@ section:nth-of-type(3n):has(.content.open) {
   margin-right: 6vh;
 }
 
+#unlockImage {
+  flex: none;
+  max-height: 80%;
+  margin: 0 4vh;
+  margin-left: 8vh;
+}
+
 .priceCard {
   background-color: rgba(0, 0, 0, 0.295);
   margin: 2vh;
@@ -85,6 +92,15 @@ section:nth-of-type(3n):has(.content.open) {
   border-radius: 2vh 2vh 0 0;
   border: 4px;
   border-style: none none double none;
+}
+
+.priceCard.price {
+  text-align: center;
+  align-items: center;
+}
+
+.price h1 {
+  font-size: 72px;
 }
 
 .howitworksInfo {
@@ -159,6 +175,17 @@ textarea {
   .treeImage,
   .frameLeft {
     display: none;
+  }
+
+  .future {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #unlockImage {
+    margin-left: unset;
+    margin: unset;
+    height: 60svh;
   }
 
   .howitworksInfo {
