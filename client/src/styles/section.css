@@ -80,6 +80,13 @@ section:nth-of-type(3n):has(.content.open) {
   margin-left: 8vh;
 }
 
+.leavesImage {
+  position: absolute;
+  top: -20%;
+  right: 0;
+  width: 40%;
+}
+
 .priceCard {
   background-color: rgba(0, 0, 0, 0.295);
   margin: 2vh;
@@ -194,7 +201,8 @@ textarea {
   .treeImage,
   .frameLeft,
   .leavesFrameLeft,
-  .leavesFrameRight {
+  .leavesFrameRight,
+  .leavesImage {
     display: none;
   }
 

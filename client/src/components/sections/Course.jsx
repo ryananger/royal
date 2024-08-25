@@ -4,7 +4,8 @@ const Course = function() {
   return (
     <>
     <h2>Course Highlights</h2>
-    <div className='v c'>
+    <div className='anchor v c'>
+      <img className='leavesImage' src='/images/leaves.svg'/>
       <ul>
         <li>
           <small><strong>Foundations of Programming: </strong>

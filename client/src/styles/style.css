@@ -158,6 +158,7 @@ div {
   padding: 1vh;
   font-size: 16px;
   cursor: pointer;
+  z-index: 100;
 }
 
 .applyButton {
