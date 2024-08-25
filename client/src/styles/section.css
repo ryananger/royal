@@ -179,7 +179,7 @@ textarea {
   max-width: 80%;
 }
 
-@media (orientation: landscape), (max-width: 1300) {
+@media (orientation: landscape) and (max-width: 1300px) {
   .content.open {
     padding: 12vh 6vh;
   }
