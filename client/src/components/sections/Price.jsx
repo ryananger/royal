@@ -6,7 +6,7 @@ const Price = function() {
       <img className='leavesFrameLeft' src='/images/leaves_frame2.svg'/>
       <small style={{marginBottom: '4vh'}}>Invest your time in techTree Academy! Our comprehensive course is free, allowing you to focus on what matters.</small>
       <div className='priceInfo h c'>
-        <div className='priceCard'>
+        <div className='priceCard leftCard anchor'>
           <h3>Tuition-Free!</h3>
           <p>Don't worry about the bill, just get thinking about what you want to build.</p>
           {/* only
@@ -23,13 +23,13 @@ const Price = function() {
             </ul>
           </small>
         </div>
-        <div className='priceCard'>
+        <div className='priceCard rightCard anchor'>
           <h3>Our Guarantee</h3>
           <p>If you're not satisfied with the course within the first 14 days, we offer a full refund. No questions asked.</p>
           <small>This is a joke.</small>
         </div>
       </div>
-      <img className='leavesFrameRight' src='/images/leaves_frame1.svg'/>
+      <img className='leavesFrameRight' src='/images/leaves_frame2.svg'/>
     </div>
   );
 };

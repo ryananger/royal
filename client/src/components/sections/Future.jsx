@@ -5,8 +5,8 @@ import st from 'ryscott-st';
 const Future = function() {
   return (
     <div className='future h c'>
-      {st.isMobile && <img id='unlockImage' src='/images/unlock.png'/>}
-      <div className='v c'>
+      {st.isMobile && <img id='unlockImage' src='/images/unlock.svg'/>}
+      <div className='futureInfo v c'>
         <h2>Unlock the Future</h2>
         At techTree Academy, we believe that everyone should have the skills they need to make use of the latest technology.
         Our mission is to democratize tech education and grant students everywhere with the knowledge to create, innovate, and transform your world.<br/><br/>
@@ -15,7 +15,7 @@ const Future = function() {
         We’re committed to equipping you with the skills necessary to build in this exciting future.
         While we don’t promise a job or career placement, we provide you with the tools and knowledge to complete projects with modern technology, unlocking unimaginable potential.
       </div>
-      {!st.isMobile && <img id='unlockImage' src='/images/unlock.png'/>}
+      {!st.isMobile && <img id='unlockImage' src='/images/unlock.svg'/>}
     </div>
   );
 };

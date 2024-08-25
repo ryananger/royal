@@ -5,7 +5,7 @@ const Instructor = function() {
     <>
     <div className='instructorCard h'>
       <img className='instructorImage' src='/images/ry.svg'/>
-      <div className='v c'>
+      <div className='instructorInfo v c'>
         <h2>Meet your Instructor</h2>
         Hi! I'm Ry, and I am a full-stack software engineer, an artist and musician, and former Air Traffic Controller and ATC Instructor for the United States Air Force.
         As a military ATC Instructor, I taught new trainees how to safely communicate with and control aircraft, and in the time since, I have tutored students in art, music, math, and English.<br/><br/>

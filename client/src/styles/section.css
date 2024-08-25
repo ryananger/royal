@@ -48,8 +48,9 @@ section h2 {
 
 
 section:nth-of-type(3n - 2) {
-  background-color: var(--grass);
   color: var(--bg);
+  background: linear-gradient(45deg, transparent, #e5ff8f9c);
+  background-color: var(--grass);
 }
 
 section:nth-of-type(3n){
@@ -75,9 +76,9 @@ section:nth-of-type(3n):has(.content.open) {
 
 #unlockImage {
   flex: none;
-  max-height: 100%;
+  max-height: 90%;
   margin: 0 4vh;
-  margin-left: 8vh;
+  margin-left: 16vh;
 }
 
 .leavesImage {
@@ -113,13 +114,14 @@ section:nth-of-type(3n):has(.content.open) {
 
 .leavesFrameLeft {
  position: absolute;
- left: -5%;
+ left: 5%;
  z-index: 0;
 }
 
 .leavesFrameRight {
+  transform: rotate(180deg);
   position: absolute;
-  right: -5%;
+  right: 5%;
   z-index: 0;
 }
 
@@ -168,6 +170,10 @@ form {
   cursor: pointer;
 }
 
+.sendButton:hover {
+  color: var(--lemon);
+}
+
 input, textarea {
   outline: none;
   border: none;
@@ -184,6 +190,16 @@ textarea {
   max-height: 240px;
   min-width: 80%;
   max-width: 80%;
+}
+
+@media (orientation: landscape) and (max-width: 1400px) {
+  .leavesFrameLeft {
+    left: -10%;
+  }
+
+  .leavesFrameRight {
+    right: -10%;
+  }
 }
 
 @media (orientation: landscape) and (max-width: 1300px) {

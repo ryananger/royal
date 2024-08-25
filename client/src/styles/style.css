@@ -9,6 +9,7 @@
 
   --bg: #2a2a2a;
   --grass: #aedd88;
+  --lemon: #e5ff8f;
   --cream: #ffefe5;
   --sage: #9cbb86;
   --moss: #7e8d70;
@@ -128,6 +129,8 @@ div {
   width: 100%;
   height: calc(10svh - 12px);
   flex: none;
+  color: var(--bg);
+  background: linear-gradient(45deg, transparent, #e5ff8f9c);
   background-color: var(--grass);
 }
 
@@ -180,5 +183,6 @@ div {
 }
 
 .applyButton:hover {
+  background-color: var(--lemon);
   font-size: 2.8vh;
 }
