@@ -192,7 +192,9 @@ textarea {
   }
 
   .treeImage,
-  .frameLeft {
+  .frameLeft,
+  .leavesFrameLeft,
+  .leavesFrameRight {
     display: none;
   }
 
