@@ -2,7 +2,8 @@ import React from 'react';
 
 const Price = function() {
   return (
-    <div className='priceSection'>
+    <div className='priceSection anchor v c'>
+      <img className='leavesFrameLeft' src='/images/leaves_frame2.svg'/>
       <small style={{marginBottom: '4vh'}}>Invest your time in techTree Academy! Our comprehensive course is free, allowing you to focus on what matters.</small>
       <div className='priceInfo h c'>
         <div className='priceCard'>
@@ -28,6 +29,7 @@ const Price = function() {
           <small>This is a joke.</small>
         </div>
       </div>
+      <img className='leavesFrameRight' src='/images/leaves_frame1.svg'/>
     </div>
   );
 };
