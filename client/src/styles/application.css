@@ -51,6 +51,7 @@
     overflow-y: auto;
     justify-content: start;
     text-align: center;
+    height: 100%;
   }
 
   .loginView {
