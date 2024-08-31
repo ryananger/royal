@@ -16,10 +16,13 @@ import Apply from './sections/Apply.jsx';
 import FAQ from './sections/FAQ.jsx';
 import Contact from './sections/Contact.jsx';
 import ApplyFloat from './ApplyFloat.jsx';
+import Application from './application/Application.jsx';
 
 const isMobile = st.isMobile = window.innerWidth < 1024;
 
 const App = function() {
+  const [showApp, setShowApp] = st.newState('showApp', useState(false));
+
   return (
     <div id='app' className='app texture v'>
       <Head/>
@@ -32,6 +35,7 @@ const App = function() {
       <Section content={<Apply/>}/>
       <Section content={<FAQ/>}/>
       <Section content={<Contact/>}/>
+      <Application/>
       <Foot/>
     </div>
   );

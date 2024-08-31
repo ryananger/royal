@@ -1,5 +1,7 @@
 import React from 'react';
 
+import st from 'ryscott-st';
+
 const Apply = function() {
   return (
     <>
@@ -8,7 +10,7 @@ const Apply = function() {
       Ready to embark on your tech journey? 
       <br/><br/>
       Apply now and take the first step towards mastering modern technology and unlock endless opportunities.<br /><br />
-      <a href='#apply' className='applyButton v c'>Apply Now</a>
+      <button className='applyButton v c' onClick={()=>{st.setShowApp(true)}}>Apply Now</button>
     </div>
     </>
   );
