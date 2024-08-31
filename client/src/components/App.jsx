@@ -1,8 +1,7 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 
 import '../styles/style.css';
 import st from 'ryscott-st';
-import {mouse} from 'util';
 
 import Head from './Head.jsx';
 import Foot from './Foot.jsx';
