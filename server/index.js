@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
-//const https  = require('https');
+const https  = require('https');
 const http   = require('http');
+const fs     = require('fs');
 const cors   = require('cors');
 const path   = require('path');
 const app    = express();
@@ -22,10 +23,10 @@ router.get('/:url', function(req, res) {
   res.sendFile(dist + '/index.html');
 });
 
-// var options = {
-//   key:  fs.readFileSync(process.env.HTTPS_KEY),
-//   cert: fs.readFileSync(process.env.HTTPS_CERT)
-// };
+ var options = {
+   key:  fs.readFileSync(process.env.HTTPS_KEY),
+   cert: fs.readFileSync(process.env.HTTPS_CERT)
+ };
 
 app.use(cors());
 app.use(express.json());
@@ -41,5 +42,5 @@ app.post('/api/users/submitApplication', controller.submitApplication);
 const PORT = 4001;
 
 http.createServer(app).listen(PORT);
-//https.createServer(options, app).listen(443);
+https.createServer(options, app).listen(443);
 console.log(`Server listening at http://localhost:${PORT}`);
