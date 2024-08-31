@@ -18,7 +18,7 @@ const ContactForm = function() {
           return;
         }
 
-    emailjs.sendForm('default_service', 'template_gd8skyj', form.current)
+    emailjs.sendForm('contact_service', 'default_template', form.current)
       .then((result) => {
         console.log(result.text);
       }, (error) => {
