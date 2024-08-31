@@ -87,16 +87,17 @@ p {
 /* --- */
 
 .alert {
-  z-index: 11;
+  z-index: 110;
   position: absolute;
   bottom: 10vh;
   min-width: 200px;
   width: max-content;
   padding: 1vh;
   border-radius: 25px;
-  border: 2px solid var(--darkText);
-  box-shadow: 0 2px 3px var(--shadow);
-  background-color: var(--cream);
+  box-shadow: 0 2px 3px #2a2a2a;
+  background-color: var(--grass);
+  color: var(--bg);
+  font-size: 18px;
 }
 
 .visible {

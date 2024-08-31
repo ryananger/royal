@@ -12,11 +12,11 @@ const controller = require('./controller.js');
 
 const dist = path.join(__dirname, '../client/dist');
 
-// app.get('*.js', function (req, res, next) {
-//   req.url = req.url + '.gz';
-//   res.set('Content-Encoding', 'gzip');
-//   next();
-// });
+app.get('*.js', function (req, res, next) {
+  req.url = req.url + '.gz';
+  res.set('Content-Encoding', 'gzip');
+  next();
+});
 
 router.get('/:url', function(req, res) {
   res.sendFile(dist + '/index.html');

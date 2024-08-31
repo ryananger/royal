@@ -19,7 +19,7 @@ const Login = function() {
       }
 
       if (!usernameGood) {
-        helpers.alert('Username invalid!');
+        helpers.alert('Username is taken!');
         return;
       }
 
