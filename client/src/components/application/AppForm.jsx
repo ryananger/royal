@@ -46,7 +46,10 @@ const AppForm = function() {
         <button className='applyButton' onClick={handleSubmit}>SUBMIT</button>
         <br/><br/>
       </form>}
-    {submitted && 'Your application has been submitted! Expect a response within 5 business days.'}
+    {submitted && 
+      <div className='loginView v c'>
+        Your application has been submitted! Expect a response within 5 business days.
+      </div>}
     </>
   );
 };
