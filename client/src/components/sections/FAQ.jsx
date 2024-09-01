@@ -16,7 +16,7 @@ const FAQ = function() {
       <strong>Q: Why is this course so cheap compared to other full-stack software engineering courses?</strong><br/>
       A: In a more expensive SWE course, you're likely paying for prestige or career connection, which may or may not assist in a career search during this major labor transition.
       Our goal is to enable you to create as an individual, today.<br/><br/>
-      <strong>Q: Does the quality of the course suffer because it's free?</strong><br/>
+      <strong>Q: Does the quality of the course suffer because it's so cheap?</strong><br/>
       A: No, we are very dedicated to ensuring the growth of every student, and have a commitment to delivering an effective and practical education.
       <br/><br/>
     </small>
