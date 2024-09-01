@@ -4,7 +4,7 @@ const Price = function() {
   return (
     <div className='priceSection anchor v c'>
       <img className='leavesFrameLeft' src='/images/leaves_frame2.svg'/>
-      <small style={{marginBottom: '4vh'}}>Invest your time in techTree Academy! Our comprehensive course is free, allowing you to focus on what matters.</small>
+      <small style={{marginBottom: '4vh'}}>Invest your time in techTree Academy! Our comprehensive course is incredibly affordable, allowing you to focus on what matters.</small>
       <div className='priceInfo h c'>
         <div className='priceCard price leftCard anchor'>
           {/* <h3>Tuition-Free!</h3>
