@@ -13,7 +13,8 @@ const Future = function() {
         The artificial intelligence revolution is already here.<br/><br/>
         It’s transforming industries and creating unprecedented opportunity, and you shouldn't have to pay thousands of dollars to learn what you need to participate.
         We’re committed to equipping you with the skills necessary to build in this exciting future.
-        While we don’t promise a job or career placement, we provide you with the tools and knowledge to complete projects with modern technology, unlocking unimaginable potential.
+        While we don’t promise a job or career placement, we provide you with the tools and knowledge to complete projects with modern technology, unlocking unimaginable potential.<br/><br/>
+        Enroll in our 8 week full-stack software engineering boot camp today!
       </div>
       {!st.isMobile && <img id='unlockImage' src='/images/unlock.svg'/>}
     </div>
