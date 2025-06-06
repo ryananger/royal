@@ -18,6 +18,7 @@ const AppForm = function() {
       location: form.location.value,
       experience: form.experience.value,
       intentions: form.intentions.value,
+      instruction: form.instruction.value,
       commitment: form.commitment.value
     };
 
@@ -42,6 +43,7 @@ const AppForm = function() {
         <textarea name='experience' placeholder='Do you have any programming experience? Please explain.' required/>
         <textarea name='intentions' placeholder='What do you hope to get out of this course?' required/>
         <br/>
+        <input type='text' name='instruction' placeholder='Can you attend class from 4pm to 6pm EST, M - F?' required/>
         <input type='number' name='commitment' placeholder='How many hours can you commit each week?' required/>
         <button className='applyButton' onClick={handleSubmit}>SUBMIT</button>
         <br/><br/>
