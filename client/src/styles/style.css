@@ -7,7 +7,7 @@
   --sky: #41aadd;
   --coffee: #44231b;
 
-  --bg: #fffbf9;
+  --bg: #fffaf8;
   --turq: #46a585;
 
   --grass: #aedd88;
@@ -50,14 +50,30 @@ html, body, #root {
   justify-content: flex-start;
   align-items: center;
   overflow: scroll;
-  color: var(--grass);
+  color: var(--turq);
 }
 
 h1, h2, h3 {
+  padding: 4vh 0;
+  margin: 0;
+}
+
+h1, h2 {
   font-family: Tangerine;
   font-weight: 700;
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
   font-size: 3rem;
-  margin: 0;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 p {
@@ -125,7 +141,7 @@ div {
 
 .foot {
   width: 100%;
-  height: calc(10svh - 12px);
+  height: 10svh;
   flex: none;
 }
 

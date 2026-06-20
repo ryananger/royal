@@ -5,8 +5,8 @@ import '../styles/section.css';
 
 const Section = ({content}) => {
   return (
-    <section>
-      <div className={`content open v c`}>
+    <section className='v'>
+      <div className={`content v`}>
         {content}
       </div>
     </section>

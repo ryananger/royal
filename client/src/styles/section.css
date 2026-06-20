@@ -4,163 +4,69 @@ section {
   width: 100%;
 }
 
-.sectionHead {
-  position: relative;
-  height: 24px;
-  width: 100%;
-  opacity: 0;
-  transition: opacity 0.25s;
-}
-
-.sectionHead:hover {
-  opacity: 1;
-}
-
-.minIcon {
-  position: absolute;
-  top: 4px;
-  right: 12px;
-  cursor: pointer;
-}
-
 section h2 {
-  padding: 2vh 0 4vh;
+  padding: 0 0 4vh;
   text-align: center;
 }
 
 .content {
-  padding: 5vh 16vh;
+  padding: 5vh;
   height: 45vh;
-  width: 100%;
+  width: 70%;
+  min-width: 1080px;
   overflow: hidden;
+}
+
+.content div {
+  height: 100%;
 }
 
 .content div.v {
   width: 100%;
-  padding: 0 0 4vh;
+  text-align: justify;
+  justify-content: space-between;
 }
 
-
-section:nth-of-type(3n - 2) {
+section:nth-of-type(2n - 1) {
   color: var(--bg);
   background: linear-gradient(45deg, transparent, #a5ebde85);
   background-color: var(--turq);
 }
 
-section:nth-of-type(3n){
-  background: #2a2a2a;
-  width: 90%;
-  border-radius: 2vh;
-  color: var(--grass);
-  margin-bottom: calc(4vh + 24px);
-  transition: margin-bottom 0.5s;
-}
-
-section:nth-of-type(3n):has(.content.open) {
-  margin-bottom: 10vh;
-}
-
-.instructorImage {
+.contentImage {
   flex: none;
-  width: 40%;
-  max-height: 80%;
-  margin: 4vh;
-  margin-right: 6vh;
+  height: 35svh;
+  aspect-ratio: 1;
+  background-color: white;
 }
 
-#unlockImage {
-  flex: none;
-  max-height: 90%;
-  margin: 0 4vh;
-  margin-left: 16vh;
+.contentImage.l {
+  margin-right: 4vh;
 }
 
-.leavesImage {
-  position: absolute;
-  top: -20%;
-  right: 0;
-  width: 40%;
+.contentImage.r {
+  margin-left: 4vh;
 }
 
-.priceCard {
-  background-color: rgba(0, 0, 0, 0.295);
-  margin: 2vh;
-  padding: 2vh;
-  display: flex;
-  flex-direction: column;
-  height: 40svh;
-  width: 300px;
-  font-size: 2vh;
-  border-radius: 2vh 2vh 0 0;
-  border: 4px;
-  border-style: none none double none;
-  z-index: 1;
+.aboutInfo {
+  justify-content: center !important;
 }
 
-.priceCard.price {
-  text-align: center;
+.whyCards {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.whyCard {
+  width: 40% !important;
+  height: 60px !important;
+  font-weight: bold;
+  text-align: center !important;
+  justify-content: center !important;
   align-items: center;
-}
-
-.price h1 {
-  font-size: 72px;
-}
-
-.leavesFrameLeft {
- position: absolute;
- left: 5%;
- z-index: 0;
-}
-
-.leavesFrameRight {
-  transform: rotate(180deg);
-  position: absolute;
-  right: 5%;
-  z-index: 0;
-}
-
-.leavesFrameLeftContact {
-  position: absolute;
-  left: -15%;
-  z-index: 0;
- }
- 
- .leavesFrameRightContact {
-   transform: rotate(180deg);
-   position: absolute;
-   right: -15%;
-   z-index: 0;
- }
-
-.howitworksInfo {
-  width: 80%;
-}
-
-.applyInfo {
-  text-align: center;
-}
-
-.frameLeft {
-  position: absolute;
-  left: -10%;
-  top: -5%;
-  height: 80%;
-}
-
-.frameRight {
-  position: absolute;
-  right: -10%;
-  bottom: -10%;
-  height: 80%;
-  transform: rotate(180deg);
-}
-
-.contactCard {
-  width: 540px !important;
-  background: var(--bg);
-  border-radius: 2vh;
-  padding: 2vh;
-  text-align: center;
+  border: 1px solid var(--bg);
+  border-radius: 8px;
+  margin: 4px 8px;
 }
 
 .formContainer {

@@ -7,6 +7,7 @@ const Head = function() {
 
   return (
     <header className='anchor v c'>
+      <h1>Royal Catering</h1>
     </header>
   );
 };
