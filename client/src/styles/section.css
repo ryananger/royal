@@ -29,16 +29,10 @@ section h2 {
 }
 
 .content {
-  padding: 2vh;
-  height: 0svh;
+  padding: 5vh 16vh;
+  height: 45vh;
   width: 100%;
   overflow: hidden;
-  transition: padding 0.5s, height 0.5s ease, opacity 0.25s, visibility 0.25s;
-}
-
-.content.open {
-  padding: 12vh 16vh;
-  height: 80svh;
 }
 
 .content div.v {
@@ -49,8 +43,8 @@ section h2 {
 
 section:nth-of-type(3n - 2) {
   color: var(--bg);
-  background: linear-gradient(45deg, transparent, #e5ff8f9c);
-  background-color: var(--grass);
+  background: linear-gradient(45deg, transparent, #a5ebde85);
+  background-color: var(--turq);
 }
 
 section:nth-of-type(3n){

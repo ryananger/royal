@@ -7,7 +7,9 @@
   --sky: #41aadd;
   --coffee: #44231b;
 
-  --bg: #2a2a2a;
+  --bg: #fffbf9;
+  --turq: #46a585;
+
   --grass: #aedd88;
   --lemon: #e5ff8f;
   --cream: #ffefe5;
@@ -23,7 +25,7 @@
 }
 
 html {
-  background: radial-gradient(circle at right, #a1eb8e59, transparent 90%);
+  background: radial-gradient(circle at right, #ffffff, transparent 90%);
   background-color: var(--bg);
 }
 
@@ -37,8 +39,8 @@ html, body, #root {
   align-items: center;
   padding: 0;
   margin: 0;
-  font-family: Jost;
-  font-size: 2.4vh;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.1rem;
 }
 
 #app {
@@ -52,6 +54,9 @@ html, body, #root {
 }
 
 h1, h2, h3 {
+  font-family: Tangerine;
+  font-weight: 700;
+  font-size: 3rem;
   margin: 0;
 }
 
@@ -112,14 +117,6 @@ p {
   transition: visibility 0s 1s, opacity 1s linear;
 }
 
-.woodgrain path {
-  fill: #d1949452;
-}
-
-.texture {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%232a2a2a' fill-opacity='1' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
-}
-
 div {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
@@ -130,9 +127,6 @@ div {
   width: 100%;
   height: calc(10svh - 12px);
   flex: none;
-  color: var(--bg);
-  background: linear-gradient(45deg, transparent, #e5ff8f9c);
-  background-color: var(--grass);
 }
 
 /* SCROLLBAR */
@@ -146,7 +140,7 @@ div {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: var(--grass);
+  background-color: var(--turq);
 }
 
 /**/
