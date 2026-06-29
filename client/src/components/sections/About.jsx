@@ -7,11 +7,11 @@ const Future = function() {
     <div className='about h'>
       <img className='aboutImage contentImage l'/>
       <div className='aboutInfo v'>
-        At Royal Catering, we believe great food brings people together. Our team is dedicated to creating delicious meals and delivering outstanding service for events of every size.
+        Royal Desserts is dedicated to creating exceptional desserts for life's most important celebrations. 
         <br/><br/>
-        Whether you're planning an intimate family gathering, a corporate luncheon, or a grand wedding reception, we work closely with you to design a menu that fits your vision, budget, and guest experience.
+        We combine quality ingredients, skilled craftsmanship, and attention to detail to deliver treats that look as amazing as they taste.
         <br/><br/>
-        With attention to detail and a passion for hospitality, Royal Catering turns every event into a celebration.
+        Whether you're planning an intimate gathering or a large event, we're committed to helping make your occasion unforgettable.
       </div>
     </div>
   );

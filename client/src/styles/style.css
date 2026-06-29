@@ -8,7 +8,7 @@
   --coffee: #44231b;
 
   --bg: #fffaf8;
-  --turq: #46a585;
+  --turq: #b46cc7;
 
   --grass: #aedd88;
   --lemon: #e5ff8f;
@@ -141,7 +141,7 @@ div {
 
 .foot {
   width: 100%;
-  height: 10svh;
+  height: 5vh;
   flex: none;
 }
 
